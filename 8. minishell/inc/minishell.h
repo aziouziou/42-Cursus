@@ -6,7 +6,7 @@
 /*   By: abziouzi <abziouzi@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/06 04:35:09 by abziouzi          #+#    #+#             */
-/*   Updated: 2022/12/10 05:50:19 by abziouzi         ###   ########.fr       */
+/*   Updated: 2022/12/11 22:02:00 by abziouzi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 # define MINISHELL_H
 
 # define BUFFER_SIZE 4096
-
+p00o
 # define FALSE 0
 # define TRUE 1
 
