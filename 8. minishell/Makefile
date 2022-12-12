@@ -6,7 +6,7 @@
 #    By: abziouzi <abziouzi@student.1337.ma>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/11/06 04:38:25 by abziouzi          #+#    #+#              #
-#    Updated: 2022/12/10 05:48:20 by abziouzi         ###   ########.fr        #
+#    Updated: 2022/12/12 21:12:14 by abziouzi         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -18,7 +18,7 @@ CC				=	cc
 
 CFLAGS			=	-Wall -Wextra -Werror
 
-RLFLAGS			=	-ledit 
+RLFLAGS			=	-lreadline
 
 RM				=	rm -rf
 

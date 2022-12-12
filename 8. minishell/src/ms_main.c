@@ -6,7 +6,7 @@
 /*   By: abziouzi <abziouzi@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/06 04:34:05 by abziouzi          #+#    #+#             */
-/*   Updated: 2022/12/09 17:50:46 by abziouzi         ###   ########.fr       */
+/*   Updated: 2022/12/12 21:18:58 by abziouzi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ int	main(int argc, char *argv[], char *envp[])
 		ms_error(ERR_ARG, 1);
 	else
 		ms_init(&g_minishell);
-		ms_signals(&g_minishell);
+		ms_signals();
 		ms_run(envp);
 	return (0);
 }

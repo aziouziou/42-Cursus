@@ -6,7 +6,7 @@
 /*   By: abziouzi <abziouzi@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/06 04:35:09 by abziouzi          #+#    #+#             */
-/*   Updated: 2022/12/11 22:02:24 by abziouzi         ###   ########.fr       */
+/*   Updated: 2022/12/12 21:18:54 by abziouzi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,8 +48,6 @@
 
 
 /* Structs & Enums*/
-
-typedef struct sigaction	t_sigaction;
 
 enum e_token_type
 {
@@ -133,11 +131,8 @@ void	ms_error(char *error_msg, int err_code);
 
 /*	ms_signals.c	*/
 
-void	ms_signals(t_minishell *minishell);
-void	assign_siglist(t_minishell *minishell);
-void	ms_signals_handler(int signum, siginfo_t *siginfo, void *ptr);
-void	sa_mask(t_sigaction *sa);
-void	catch_signals(t_sigaction *sa);
+void	ms_signals();
+void	ms_signals_handler(int signum);
 
 /*	ms_lexer.c	&	ms_lexer_utils.c	*/
 
