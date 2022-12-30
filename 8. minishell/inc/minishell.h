@@ -6,7 +6,7 @@
 /*   By: abziouzi <abziouzi@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/06 04:35:09 by abziouzi          #+#    #+#             */
-/*   Updated: 2022/12/12 21:18:54 by abziouzi         ###   ########.fr       */
+/*   Updated: 2022/12/18 10:40:28 by abziouzi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,7 +45,6 @@
 
 # include "env.h"
 # include "ms_libft.h"
-
 
 /* Structs & Enums*/
 
@@ -89,12 +88,6 @@ typedef struct s_token
 
 }	t_token;
 
-enum s_state
-{
-	MS_READING,
-	MS_EXECUTING,
-};
-
 typedef struct s_tokens
 {
 	int				size;
@@ -108,9 +101,6 @@ typedef struct s_tokens
 
 typedef struct s_minishell
 {
-	char			*siglist[NSIG];
-
-	enum s_state	state;
 
 	int				exit_status;
 

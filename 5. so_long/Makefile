@@ -6,7 +6,7 @@
 #    By: abziouzi <abziouzi@student.1337.ma>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/06/11 03:03:20 by abziouzi          #+#    #+#              #
-#    Updated: 2022/11/22 20:39:00 by abziouzi         ###   ########.fr        #
+#    Updated: 2022/12/26 17:27:12 by abziouzi         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -18,7 +18,7 @@ CC				=	cc
 
 FLAGS			=	-Wall -Wextra -Werror -g
 
-MLX_FLAGS		=	-lmlx -framework AppKit -framework OpenGl
+MLX_FLAGS		=	-Imlx AppKit -framework OpenGl
 
 LIBFT			=	inc/libft
 

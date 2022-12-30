@@ -6,7 +6,7 @@
 /*   By: abziouzi <abziouzi@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/30 15:49:51 by abziouzi          #+#    #+#             */
-/*   Updated: 2022/12/09 17:57:51 by abziouzi         ###   ########.fr       */
+/*   Updated: 2022/12/17 12:02:14 by abziouzi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ int	ms_tokenizer(t_tokens *tokens, char *input, int i)
 {
 	(void)tokens;
 	(void)input;
-	
+
 	return (i);
 }
 
